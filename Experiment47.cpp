@@ -1,0 +1,42 @@
+//47	Lab 12	WAP to understand the concept of Virtual functions for Method overriding
+#include <iostream>
+using namespace std;
+
+class base {
+public:
+    virtual void print()
+    {
+        cout << "print base class" << endl;
+    }
+
+    void show()
+    {
+        cout << "show base class" << endl;
+    }
+};
+
+class derived : public base {
+public:
+    void print()
+    {
+        cout << "print derived class" << endl;
+    }
+
+    void show()
+    {
+        cout << "show derived class" << endl;
+    }
+};
+
+int main()
+{
+    base* bptr;
+    derived d;
+    bptr = &d;
+
+    // virtual function, binded at runtime
+    bptr->print();
+
+    // Non-virtual function, binded at compile time
+    bptr->show();
+}
