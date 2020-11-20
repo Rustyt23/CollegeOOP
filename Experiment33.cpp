@@ -1,8 +1,8 @@
 //33	Lab 9	WAP to show polymorphism by sum in int & double type.
 //polymorphism by sum in int & double type
-#include<iosteam>
+#include<iostream>
 
-using namesapce std;
+using namespace std;
 
 int mul (int a,int b)
 
@@ -27,5 +27,6 @@ int main()
 mul (5,6);  // int
 
 mul(3.3,8.6);  // double
+return 0;
 
 }

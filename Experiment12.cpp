@@ -1,5 +1,7 @@
 //12		Write a C++ program  to  create an object and take the data in the  object  through the member function of the class ?
-#include<iostream.h>
+#include<iostream>
+using namespace std;
+
 class car{
 private:
 int part ,model;
@@ -11,7 +13,7 @@ void getinfo(int p ,int m){
 }
 void display(){
     cout<<"Model:"<<model;
-    cout<<"Part:"part;
+    cout<<"Part:"<<part;
 
 }
 };

@@ -1,8 +1,6 @@
 //35		WAP to show polymorphism by using different no. of arguments.
-//polymorphism by using different no. of arguments
-#include<iosteam>
-
-using namesapce std;
+#include<iostream>
+using namespace std;
 
 int mul (int a, int b)
 

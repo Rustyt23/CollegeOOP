@@ -1,8 +1,7 @@
 //54		Consider a class network of the following figure. The class master derives information from both account and admin classes which in turn derives information from the class person. Define all the four classes and write a program to create, update and display the information contained in master objects
-#include<iostream.h>
-#include<conio.h>
-#include<string.h>
-
+#include<iostream>
+#include<string>
+using namespace std;
 class person
 {
 protected:
@@ -70,13 +69,11 @@ public:
 int main()
 {
 	master p1;
-	clrscr();
 
 	p1.get_per(111,"Vishal");
 	p1.get_pay(501.50);
 	p1.get_exp(2);
 	p1.display();
 
-	getch();
 	return 0;
 }

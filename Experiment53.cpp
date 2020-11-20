@@ -88,20 +88,20 @@ int main()
 {
 
         teacher t;
-               t.set_info("Ataur",420);
+               t.set_info("Aatma",420);
              t.set_details("programming with c++"," Tata McGraw Hill");
 
              officer o;
-             o.set_info("Md. Rashed",222);
+             o.set_info("Vicky",222);
              o.set_details("First class");
 
                       regular rt;
-               rt.set_info("Robiul Awal",333);
+               rt.set_info("Vishal",333);
              rt.set_speed(85.5);
              rt.set_wage(15000);
 
           causal ct;
-ct.set_info("Kawser Ahmed",333);
+ct.set_info("Rustyt",333);
 ct.set_speed(78.9);
 ct.set_wage(10000);
          cout<<"  About teacher: "<<endl;

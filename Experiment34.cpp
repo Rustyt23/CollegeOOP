@@ -1,8 +1,8 @@
 //34		WAP to show polymorphism by squaring of no. In int & double.
 //polymorphism by squaring of no. In int & double
-#include<iosteam>
+#include<iostream>
 
-using namesapce std;
+using namespace std;
 
 int mul (int a)
 

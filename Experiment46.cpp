@@ -1,8 +1,8 @@
 //46		Create a class FLOAT that contains one float data member. Overload all the four arithmetic operators so that they operate on the objects of FLOAT.
-//42.Create a class FLOAT that contains one float data member. Overload all the four arithmetic operators so that they operate on the objects of FLOAT.
-#include<iostream.h>
+#include<iostream>
 #include<stdio.h>
-#include<conio.h>
+using namespace std;
+
 class FLOAT
 {
 private:
@@ -18,40 +18,39 @@ cout<<"\nx:"<<x;
 }
 
 //Defining an operator function + to overload
-Check operator +(FLOAT c)
+FLOAT operator +(FLOAT c)
 {
-Check temp;
+FLOAT temp;
 temp.x=x+c.x;
 return temp;
 }
 
 //Defining an operator function - to overload
-Check operator -(FLOAT c)
+FLOAT operator -(FLOAT c)
 {
-Check temp;
+FLOAT temp;
 temp.x=x-c.x;
 return temp;
 }
 //Defining an operator function * to overload
-Check operator *(FLOAT c)
+FLOAT operator *(FLOAT c)
 {
-Check temp;
+FLOAT temp;
 temp.x=x*c.x;
 return temp;
 }
 
 //Defining an operator function / to overload
-Check operator /(FLOAT c)
+FLOAT operator /(FLOAT c)
 {
-Check temp;
+FLOAT temp;
 temp.x=x/c.x;
 return temp;
 }
 };
 
-void main()
+int main()
 {
-clrscr();
 FLOAT c1,c2,c3,c4,c5,c6;
 c1.setData(20);
 c2.setData(10);
@@ -71,5 +70,5 @@ c5.getData();
 //Overloading operator /
 c6=c2/c1;
 c6.getData();
-getch();
+return 0;
 }

@@ -1,29 +1,28 @@
 //36		Create a class calculation that contains one float data member and int data member. Overload all the four functions addition, subtraction, multiplication and division so that they operate on the objects of calculation class
-//class calculation that contains one float data member and int data member.Overload all the four functions addition, subtraction, multiplication and division
 #include<iostream>
 using namespace std;
 
 class calculation{
     int res=0;
     public:
-    sum(int a,int b)
+    int sum(int a,int b)
 {
     res=a+b;
     return(res);
 }
 
-sub(int a,int b)
+ int sub(int a,int b)
 {
     res=a-b;
     return(res);
 }
 
-mul(int a,int b)
+int mul(int a,int b)
 {
     res=a*b;
     return(res);
 }
-div(int a,int b)
+int div(int a,int b)
 {
     res=a/b;
     return(res);
@@ -31,7 +30,7 @@ div(int a,int b)
 };
 
 int main()
-{   calculation c
+{   calculation c;
     int a,b,m,su,s,d;
     cout<<"\nEnter 1st number :: ";
     cin>>a;

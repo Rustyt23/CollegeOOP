@@ -1,8 +1,8 @@
 //52		Write a class template to represent a generic vector. Include member functions to perform the following tasks:(a) To create the vector (b) To modify the value of a given (c) To multiply by a scalar value element (d) To display the vector in the following form (10, 20, 30 …)
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 #include<stdio.h>
-#include<string.h>
+#include<string>
+using namespace std;
 
 //class Vector
 class Vector
@@ -66,12 +66,11 @@ cout<<"\nEntered vector is :"<<x<<"i + "<<y<<"j + "<<z<<"k";
 
 };
 
-void main()
+int main()
 {
-clrscr();
 Vector vt;
 vt.set_vector();
 vt.modify();
 vt.multiply();
-getch();
+return 0;
 }

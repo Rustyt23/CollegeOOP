@@ -3,7 +3,7 @@
 class global{
     public:
     int a;
-    scope(int b)
+    global(int b)
     {
         a = b;
     };

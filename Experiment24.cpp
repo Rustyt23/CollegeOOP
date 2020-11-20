@@ -7,7 +7,7 @@ int main()
 class local{
     public:
     int a;
-    scope(int b)
+    local(int b)
     {
         a = b;
     };

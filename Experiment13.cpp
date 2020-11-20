@@ -1,5 +1,7 @@
 //13		Write a C++ program  to  make a class to declare some private members and variables and fill the values in those variables using the object ?
-#include<iostream.h>
+#include<iostream>
+using namespace std;
+
 class car{
 private:
 int part ,model;
@@ -11,7 +13,7 @@ car(int p ,int m){
 }
 void display(){
     cout<<"Model:"<<model;
-    cout<<"Part:"part;
+    cout<<"Part:"<<part;
 
 }
 };

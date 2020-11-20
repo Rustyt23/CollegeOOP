@@ -1,7 +1,8 @@
 //11	Lab 3	Write a C++ program  to print a string on the screen using the concept  of objects and class ?
-#include <bits/stdc++.h>
+#include <iostream>
+#include<string.h>
 using namespace std;
-class Geeks
+class Name
 {
     public:
 
@@ -15,9 +16,9 @@ class Geeks
 
 int main() {
 
-    Geeks obj1;
+    Name obj1;
 
-    obj1.geekname = "Rustyt";
+    obj1.name = "Rustyt";
 
     obj1.printname();
     return 0;

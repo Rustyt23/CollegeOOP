@@ -1,5 +1,7 @@
 //15		Write a C++ program  to  implement the concept of the object as  function argument in which we will pass on the values in the object as function argument (part no. , car model )
-#include<iostream.h>
+#include<iostream>
+using namespace std;
+
 class car{
 private:
 int part ,model;
@@ -11,7 +13,7 @@ void info(int p ,int m){
 }
 void display(){
     cout<<"Model:"<<model;
-    cout<<"Part:"part;
+    cout<<"Part:"<<part;
 
 }
 };
